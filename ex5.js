@@ -5,7 +5,6 @@
 let pez1 = {
     nombre: "Dory",
     color: 'azul'
-
 }
 
 let pez2 = {
@@ -35,14 +34,14 @@ function buscarPez(banco_peces, pezBuscado) {
     let indicePez = 0
 
     while(!pezEncontrado && indicePez<=banco_peces.length){
-        
+        !pezEncontrado
     }
 
     return pezEncontrado;
 }
 
 // Esta llamada debería devolver 'true'
-// console.log(buscarPez(banco_peces, 'Nemo')); 
+console.log(buscarPez(banco_peces, 'Nemo')); 
 
 // Esta llamada debería devolver 'true'
 // console.log(buscarPez(banco_peces, 'Sipho'));

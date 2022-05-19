@@ -9,10 +9,12 @@ let estudiante = {
     nombre: "Edu",
     conocimientos: [],
     aprender: function (nuevoConocimiento) {
+        this.conocimientos.push(nuevoConocimiento);
+
         // una línia de código
     }
 
 }
 
 estudiante.aprender('HTML')
-console.log("Debería aparecer aquí que el estudiante ha aprendido HTML:", estudiante.conocimientos)
+console.log("Debería aparecer aquí que el estudiante ha aprendido HTML:", estudiante.conocimientos);
